@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./calculator(design).css" rel="stylesheet">
+</head>
+<body>
+  <h1>CALCULATOR</h1> 
+  <table>
+    <tr>
+      <td colspan="4"><input type="text" id="screen" placeholder="0"></td>
+    </tr>
+    <tr>
+      <td><button value="1" class="btn" onclick="display(1)">1</button></td>
+      <td><button value="2" class="btn" onclick="display(2)">2</button></td>
+      <td><button value="3" class="btn" onclick="display(3)">3</button></td>
+      <td><button value="+" class="btn" id="btn1" onclick="display(value)">+</button></td>
+    </tr>
+    <tr>
+      <td><button value="4" class="btn" onclick="display(4)">4</button></td>
+      <td><button value="5" class="btn" onclick="display(5)">5</button></td>
+      <td><button value="6" class="btn" onclick="display(6)">6</button></td>
+      <td><button value="-" class="btn" id="btn1" onclick="display(value)">-</button></td>
+    </tr>
+    <tr>
+      <td><button value="7" class="btn"onclick="display(7)">7</button></td>
+      <td><button value="8" class="btn"onclick="display(8)">8</button></td>
+      <td><button value="9" class="btn"onclick="display(9)">9</button></td>
+      <td><button value="/" class="btn" id="btn1" onclick="display(value)">/</button></td>
+    </tr>
+    <tr>
+      <td><button value="C" class="btn" id="btn3" onclick="clr()">C</button></td>
+      <td><button value="0" class="btn" onclick="display(0)" >0</button></td>
+      <td><button value="=" class="btn" id="btn2" onclick="result()">=</button></td>
+      <td><button value="*" class="btn" id="btn1" onclick="display(value)">*</button></td>
+    </tr>
+  </table>
+
+  <script src="./calculator.js"></script>
+
+</body>
+</html>
